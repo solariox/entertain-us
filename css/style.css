@@ -195,7 +195,7 @@ body {
 }
 
 section {
-  min-height: 80vh;
+  min-height: 50vh;
   padding: 50px 15% 50px 15%;
   background-color: #1A1B1D;
 }
@@ -213,7 +213,7 @@ section {
   min-height: 100vh;
   max-height: 100vh;
   color: #9fa0ac;
-  background: url("../img/main_3.jpg");
+  background: url("../img/main_4.jpg");
   background-size: cover;
   background-position: center;
   background-color: transparent;
@@ -222,7 +222,7 @@ section {
 h1 {
   position: absolute;
   text-align: center;
-  width: 80%;
+  width: 60%;
   left: 50%;
   transform: translateX(-50%);
   bottom: 20%;
@@ -236,7 +236,15 @@ h1 {
   animation: opacity 2s cubic-bezier(0.17, 0.67, 0.14, 0.97) both;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
+
+  img{
+    margin-top: 10%;
+    max-width: 100%;
+    max-height: 100%;
+  
+  }
 }
+
 
 @-webkit-keyframes opacity {
   from {
@@ -447,6 +455,16 @@ p.pink:hover {
 footer {
   background-color: #ffff33;
   min-height: 15vh;
+}
+
+.contact{
+  color: #9fa0ac;
+  background: url("../img/groupededos.jpg");
+  background-size: contain;
+  background-position: center;
+  background-color: transparent;
+  min-width: 80vh;
+   
 }
 
 .contact p {
