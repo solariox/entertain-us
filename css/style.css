@@ -323,7 +323,7 @@ p.miniPara {
   font-weight: 900;
   text-align: center;
   width: 70%;
-  margin: 70px auto 70px auto;
+  margin: 20px auto 20px auto;
 }
 
 .imgContent {
@@ -463,11 +463,15 @@ footer {
   background-size: contain;
   background-position: center;
   background-color: transparent;
-  min-width: 80vh;
-   
+  min-width: 80vh;   
 }
 
 .contact p {
+  text-align: center;
+}
+
+.presskit{
+  border: 1px solid #ffff33;
   text-align: center;
 }
 
