@@ -101,8 +101,8 @@ section {
 .separator {
   width: 20vw;
   height: 2px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: #ffff33;
 }
 
@@ -347,7 +347,7 @@ p.pink:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  padding: 5px 0;
 }
 
 footer {
