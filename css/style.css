@@ -372,6 +372,17 @@ footer {
 .contact p {
   text-align: center;
 }
+.contact-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-social img {
+  width: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all ease-in-out 250ms;
+}
 
 .presskit{
   border: 1px solid #ffff33;
