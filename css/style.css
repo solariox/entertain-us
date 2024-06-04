@@ -350,8 +350,9 @@ p.pink:hover {
   padding: 5px 0;
 }
 .ss-gallery iframe{
-  width: 80%;	
+  min-width: 50%;
   height: 300px;
+  padding: 10px 0;
 }
 .gallery-img{
   display: flex;
@@ -364,6 +365,7 @@ p.pink:hover {
   max-height: 350px;
   margin: 15px 15px;
   border-radius: 15px;
+  max-width: 100%;
 }
 
 footer {
