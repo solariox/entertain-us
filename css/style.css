@@ -111,7 +111,7 @@ section {
   min-height: 100vh;
   max-height: 100vh;
   color: #9fa0ac;
-  background: url("../img/main_4.jpg");
+  background: url("../img/main.jpg");
   background-size: cover;
   background-position: center;
   background-color: transparent;
@@ -342,12 +342,28 @@ p.pink:hover {
   letter-spacing: 1px;
 }
 
-.ss-nextShow, .ss-music {
+.ss-nextShow, .ss-gallery {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5px 0;
+}
+.ss-gallery iframe{
+  width: 80%;	
+  height: 300px;
+}
+.gallery-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-img img{
+  width: auto;
+  max-height: 350px;
+  margin: 15px 15px;
+  border-radius: 15px;
 }
 
 footer {
